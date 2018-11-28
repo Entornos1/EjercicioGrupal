@@ -33,7 +33,7 @@ public class Deportista extends Persona {
 			}else {
 				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas ");
 			}
-			}
+		}
 		return "  " ;
 	}
 }
