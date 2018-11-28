@@ -26,14 +26,13 @@ public class Deportista extends Persona {
 	public String saltarVallas(Persona persona) {
 		int vallasSaltadas = (int) (Math.random()*10);
 		if (vallasSaltadas == 0) {
-			System.out.println("El deportista "+getNombre() + " no ha saltado correctamente ninguna valla ");
+			return "El deportista "+getNombre() + " no ha saltado correctamente ninguna valla.";
 		}else {
 			if (vallasSaltadas == 1 ) {
-				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " valla  ");
+				return "El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " valla.";
 			}else {
-				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas  ");
+				return "El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas.";
 			}
-		}  
-		return "  " ;
+		} 
 	}
 }

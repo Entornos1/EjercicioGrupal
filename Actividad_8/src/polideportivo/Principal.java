@@ -15,9 +15,14 @@ public class Principal {
 			System.out.println(ele + "\n");
 		} 
 		
-		entrenador1.mandarCorrer(deportista1); // Pone a correr al deportita que deseemos
-		deportista1.saltarVallas(deportista1); // El deportista1 salta un numero de vallas
+		// Pone a correr al deportita que deseemos
+		System.out.println(entrenador1.mandarCorrer(deportista1));
 		
+		// El deportista1 salta un numero de vallas
+		System.out.println(deportista1.saltarVallas(deportista1));
 		
+		//El entrenador 1 prepara el entrenamiento para el deportista 1
+		System.out.println(entrenador1.prepararEntrenamiento(deportista1));
+		entrenador1.mandarCorrer(deportista1); 		
 	}	  
 }

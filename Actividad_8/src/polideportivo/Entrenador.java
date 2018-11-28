@@ -24,14 +24,19 @@ public class Entrenador extends Persona {
 	} 
 	
 	
-	/*
+	/**
 	 * metodo mandarCorrer
 	 */
-
 	public String mandarCorrer(Persona persona) {
-	System.out.println("Empieza a correr 2 vueltas al campo  " + persona.getNombre());
-		
-		return " "; 
+		return "Empieza a correr 2 vueltas al campo  " + persona.getNombre()+"."; 
 	}
+	
+	/**
+	 * Metodo Propio de la subclase	 * 
+	 * @return String con el nombre del profesero que va a corregir los examenes.
+	 */
+	public String prepararEntrenamiento(Persona persona) {
+		return "El entrenador " + this.getNombre() + " va preparar el entranamiento para " + persona.getNombre() +".";
+	}	
   
 }

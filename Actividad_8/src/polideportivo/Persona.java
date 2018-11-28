@@ -15,7 +15,7 @@ package polideportivo;
  */ 
 
 public abstract class Persona {
-	private String nif, nombre, direccion, telefono;
+	private String nif, nombre, telefono;
 
 	
 	/**
