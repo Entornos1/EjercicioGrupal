@@ -22,9 +22,12 @@ public class Entrenador extends Persona {
 	public void setDeporte(String deporte) {
 		this.deporte = deporte;
 	} 
+	
+	
 	/*
-	 * metodo Correr
+	 * metodo mandarCorrer
 	 */
+
 	public String mandarCorrer(Persona persona) {
 	System.out.println("Empieza a correr 2 vueltas al campo  " + persona.getNombre());
 		

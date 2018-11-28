@@ -15,25 +15,23 @@ public class Deportista extends Persona {
 	public String getEjercicio() {
 		return ejercicio;
 	}
-
+  
 	/**
 	 * @param ejercicio the ejercicio to set
 	 */
 	public void setEjercicio(String ejercicio) {
 		this.ejercicio = ejercicio;
 	}
-/*
- * Metodo saltarValla
- */
+
 	public String saltarVallas(Persona persona) {
 		int vallasSaltadas = (int) (Math.random()*10);
 		if (vallasSaltadas == 0) {
 			System.out.println("El deportista "+getNombre() + " no ha saltado correctamente ninguna valla ");
 		}else {
 			if (vallasSaltadas == 1 ) {
-				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " valla ");
+				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " valla  ");
 			}else {
-				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas ");
+				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas  ");
 			}
 		}  
 		return "  " ;
