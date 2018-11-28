@@ -7,6 +7,6 @@ public class Entrenador extends Persona {
 		super(nif, nombre, telefono);
 		this.deporte = deporte;
 		// TODO Auto-generated constructor stub
-	}
+	} 
 
 }

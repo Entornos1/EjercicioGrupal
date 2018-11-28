@@ -12,7 +12,7 @@ package polideportivo;
  * 	
  * @author Juan Antonio Pavón Carmona *
  *	
- */
+ */ 
 
 public abstract class Persona {
 	private String nif, nombre, direccion, telefono;

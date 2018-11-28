@@ -13,6 +13,6 @@ public class Principal {
 		Persona [] lista = {entrenador1, deportista1};	
 		for (Persona ele: lista) {
 			System.out.println(ele + "\n");
-		}
+		} 
 	}	
 }
