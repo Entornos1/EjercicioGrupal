@@ -17,5 +17,5 @@ public class Principal {
 		
 		entrenador1.mandarCorrer(deportista1); // Pone a correr al deportita que deseemos
 		deportista1.saltarVallas(deportista1); // El deportista1 salta un numero de vallas
-	}	
+	}	  
 }

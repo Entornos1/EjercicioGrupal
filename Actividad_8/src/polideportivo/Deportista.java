@@ -22,7 +22,9 @@ public class Deportista extends Persona {
 	public void setEjercicio(String ejercicio) {
 		this.ejercicio = ejercicio;
 	}
-
+/*
+ * Metodo saltarValla
+ */
 	public String saltarVallas(Persona persona) {
 		int vallasSaltadas = (int) (Math.random()*10);
 		if (vallasSaltadas == 0) {
@@ -33,7 +35,7 @@ public class Deportista extends Persona {
 			}else {
 				System.out.println("El deportista "+getNombre() + " ha saltado correctamente "+ vallasSaltadas + " vallas ");
 			}
-		}
+		}  
 		return "  " ;
 	}
 }
